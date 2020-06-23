@@ -1,0 +1,195 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(52, 46, 156, 1) 0%, rgba(44, 44, 163, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    color: white;
+}
+
+.title {
+    height: 130px;
+    background: black;
+    opacity: 0.3;
+    width: 45%;
+    margin: auto;
+}
+
+#title {
+    position: relative;
+    margin-top: -130px;
+    font-family: 'Corben', cursive;
+
+}
+
+#description {
+    position: relative;
+    font-family: 'Corben', cursive;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+
+.form-wrapper {
+    height: 1840px;
+    background: black;
+    opacity: 0.3;
+    width: 45%;
+    margin: auto;
+}
+
+label {
+    margin: 20px 5px;
+    font-family: 'Corben', cursive;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+input[type='text'] {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px 2px black;
+}
+
+input[type='email'] {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px 2px black;
+
+
+}
+
+input[type='number'] {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px 2px black;
+
+}
+
+select {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px 2px black;
+
+
+}
+
+input[type='checkbox'] {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border-color:inherit;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px 1px black;
+
+}
+
+textarea {
+    display: block;
+    margin: auto;
+}
+
+button {
+    width: 31.5%;
+    margin-right: -12px;
+    height: 40px;
+    background-color: #1b6ca8;
+    border: none;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+}
+
+
+.form {
+    position: relative;
+    margin-top: -1820px;
+
+}
+
+.checkbox {
+    width: 45%;
+    margin: auto auto auto 520px;;
+    text-align: left;
+}
+
+#name-label {
+    margin-right: 27.7%;
+}
+
+#name {
+    width: 30%
+}
+
+#email-label {
+    margin-right: 27.5%;
+}
+
+#email {
+    width:30%;
+}
+
+#number-label {
+    margin-right: 28.5%;
+}
+
+#number {
+    width:30%;
+}
+
+#dropdown-label {
+    margin-right: 13%;
+}
+
+#dropdown {
+    width: 30.5%;
+}
+
+#gender-label {
+    margin-right: 27%;
+    margin-bottom: 20px;
+}
+
+#male {
+    margin-left: 29%;
+    margin-top: 10px;
+}
+
+#male-label {
+    margin-right: 54.5%
+}
+
+#female {
+    margin-left: 29%;
+}
+
+#female-label {
+    margin-right: 53.5%;
+}
+
+#other {
+    margin-left: 29%;
+}
+
+#other-label {
+    margin-right: 54%;
+}
+
+#message-label {
+    margin-right: 25%
+}
+
+#message {
+    margin-right: 33.8%;
+}
